@@ -1,5 +1,5 @@
 ###
-# Copyright (c) 2015, James Lu
+# Copyright (c) 2015-2024, James Lu
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -51,7 +51,7 @@ __url__ = 'https://github.com/jlu5/SupyPlugins/'
 
 from . import config
 from . import plugin
-from imp import reload
+from importlib import reload
 # In case we're being reloaded.
 reload(config)
 reload(plugin)
