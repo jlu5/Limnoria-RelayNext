@@ -2,6 +2,25 @@
 
 RelayNext supports relaying between channels with different names, and stores its entries in a database instead of the configuration, preventing various forms of entry corruption.
 
+## Install
+
+Due to technical limitations, installation via Limnoria's PluginDownloader or pip is currently unavailable.
+
+### Via Git checkout
+
+Clone the Git repository somewhere and add the *parent* directory to your bot's `config directories.plugins` setting.
+Make sure the directory that you save the plugin to matches the plugin name:
+
+```
+$ git clone https://github.com/jlu5/Limnoria-RelayNext RelayNext
+```
+
+After cloning, you can update your copy of the plugin in place by entering the RelayNext directory and running:
+
+```
+$ git pull
+```
+
 ## Usage
 
 ### Creating a new relay
